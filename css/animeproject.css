@@ -1,0 +1,86 @@
+/* apply to all things in body tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 23, 23);
+  }
+  /* whole nav bar */
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(13, 13, 13);
+    border: hidden;
+    border-radius: 5px;
+
+          }
+  /* nav bar content ex: home,news */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 18px 30px 14px 30px;
+    text-decoration: none;
+  }
+  /* dropdown apply to all content under dropdown ex: genre and button(all) */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  /* appy to class 'dropbtn'  */
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(42, 173, 254);
+    padding: 18px 30px 14px 30px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  /* hovering over all the content */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: orangered;
+  }
+  /* important */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0f0e0e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  /* important */
+  .dropdown-content a {
+    float: none;
+    color: rgb(47, 84, 195);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  /* important */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .searchbar{
+    float: right;
+    margin-right: 40px;
+    padding-top: 10px;
+  }
+  .searchbar input{
+    background-color: rgb(56, 49, 49);
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    color: white;
+    /* border outline */
+    outline: none;
+  }
+  .searchbar button{
+    background-color: inherit;
+    border: none;
+    color: white;
+    font-size: inherit;
+  }

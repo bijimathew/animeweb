@@ -1,4 +1,4 @@
-var myself=["Biji Mathew","B40521015","Project On Anime Website"];
+let myself=["Biji Mathew","B40521015","Project On Anime Website"];
 // myself.forEach(function(element)
 // {
 //     console.log(element);

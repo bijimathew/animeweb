@@ -1,15 +1,15 @@
 let myself=["Biji Mathew","B40521015","Project On Anime Website"];
 // myself.forEach(function(element)
 // {
-//     console.log(element);
-// })
-let j=0;
-while(j<myself.length)
-{
-    console.log(myself[j])
-    j++;
-}
-function searchres()
+    //     console.log(element);
+    // })
+    let j=0;
+    while(j<myself.length)
+    {
+        console.log(myself[j])
+        j++;
+    };
+    function searches()
 {
     let searchcount =0 ;
     searchcount=searchcount+1;

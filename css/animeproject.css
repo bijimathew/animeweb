@@ -21,6 +21,7 @@ body {
     text-align: center;
     padding: 18px 30px 14px 30px;
     text-decoration: none;
+    overflow: hidden;
   }
   /* dropdown apply to all content under dropdown ex: genre and button(all) */
   .dropdown {
@@ -37,6 +38,7 @@ body {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    overflow: hidden;
   }
   /* hovering over all the content */
   .navbar a:hover, .dropdown:hover .dropbtn {
@@ -68,6 +70,7 @@ body {
     float: right;
     margin-right: 40px;
     padding-top: 10px;
+    overflow: hidden;
   }
   .searchbar input{
     background-color: rgb(56, 49, 49);
@@ -79,6 +82,7 @@ body {
     color: white;
     /* border outline */
     outline: none;
+    overflow: hidden;
   }
   .searchbar button{
     background-color: inherit;

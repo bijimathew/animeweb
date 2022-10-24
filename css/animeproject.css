@@ -1,15 +1,17 @@
 /* apply to all things in body tag */
+*{
+  box-sizing: border-box;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(24, 23, 23);
   }
   /* whole nav bar */
   .navbar {
-    overflow: hidden;
+    overflow: hidden !important;
     background-color: rgb(13, 13, 13);
     border: hidden;
     border-radius: 5px;
-
           }
   /* nav bar content ex: home,news */
   .navbar a {
@@ -84,3 +86,24 @@ body {
     color: white;
     font-size: inherit;
   }
+
+  .searchresult{
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill,minmax(140px,1fr)); */
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 30px;
+    box-sizing: border-box;
+    background-color: inherit;
+    padding: 10px;
+    margin: 100px 100px 100px 100px;
+    overflow-y: scroll !important;
+    /* overflow: scroll !important; */
+  }
+  ul{
+    list-style-type: none;
+  }
+.resultimg{
+max-height: 300px;
+max-width: 250px;
+
+}

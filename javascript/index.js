@@ -12,7 +12,7 @@ let myself=["Biji Mathew","B40521015","Project On Anime Website"];
     function searches()
 {
     let searchcount =0 ;
-    searchcount=searchcount+1;
+    searchcount += 1;
     console.log("number of type search is clicked ",searchcount);
     alert("sorry website is in construction");
 };

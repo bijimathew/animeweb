@@ -8,6 +8,8 @@ body {
   }
   /* whole nav bar */
   .navbar {
+    width: 100%;
+    margin-top: -150px;
     overflow: hidden !important;
     background-color: rgb(13, 13, 13);
     border: hidden;
@@ -117,7 +119,7 @@ max-width: 250px;
 .subhead{
   border: 1px solid white;
   padding: 100px;
-  margin-top: 50px;
+  margin-top: 150px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 15px;

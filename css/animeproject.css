@@ -127,6 +127,7 @@ max-width: 250px;
 .hdh3{
   border: 1px solid white;
   padding-bottom: 35px;
+  width: 100%;
 }
    .hdh3 ul li{
 float: left;

@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 23, 23);
+  }
+.videoNav{
+float: left;
+
+}
+.videoNav ul{
+    list-style-type: none;
+}
+
+.videoNav ul li a{
+   text-decoration: none;
+   color: white ;
+}
+#iconbk{
+    color: rgb(45, 127, 179);
+}
+.iframecontainer{
+    
+}

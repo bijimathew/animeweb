@@ -17,6 +17,18 @@ float: left;
 #iconbk{
     color: rgb(45, 127, 179);
 }
-.iframecontainer{
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    }
     
-}
+    .videoWrapper iframe {
+    margin-left: 10rem;
+    margin-top: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60rem;
+    height: 35rem;
+    }

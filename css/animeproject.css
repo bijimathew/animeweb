@@ -75,7 +75,7 @@ body {
   }
   .searchbar{
     float: right;
-    margin-right: 4vmax;
+    margin-right: 1vmax;
     padding-top: 1vmax;
     overflow: hidden;
   }

@@ -11,7 +11,7 @@ body {
 
    }
    ::-webkit-scrollbar{
-    width: 1px;
+    width: 5px;
    }
    ::-webkit-scrollbar-track{
      background-color: black;
@@ -28,7 +28,8 @@ body {
     overflow: hidden;
     background-color: rgba(13, 13, 13, 0.779);
     position: relative;
-    border-radius: 2px;
+    border: 1px hidden;
+    border-radius: 10px;
           }
     .logo{
       height: 1.5vmax;
@@ -199,6 +200,10 @@ background-color: #222;
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 1000px){
   .text {font-size: 11px}
+  .header{
+    border: none;
+    border-radius: none;
+  }
   .searchbar{
     padding-top: 2px;
   }

@@ -168,8 +168,11 @@ overflow: hidden;
 margin-left: 11.5vmax;
 margin-top: 10vmax;
 box-sizing: border-box;
+
 }
 .container .items{
+display: flex;
+align-items: center;
 height: 287.14px;
 width: 157.5px;
 background-color: black;
@@ -201,5 +204,19 @@ width: 157.5px;
   .text .subheadtitle{
     padding-left: 25px;
     font-size: 8px;
+  }
+  .container{
+    width: fit-content;
+    grid-template-columns: repeat(auto-fill,minmax(25px,1fr));
+    height: max-content;
+  }
+  .container .items{
+/* height: 28px;
+width: 19px; */
+height: fit-content;
+
+  }
+  .container .items .containerImage img{
+    width: 30px;
   }
 } 

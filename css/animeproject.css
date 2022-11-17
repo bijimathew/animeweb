@@ -207,8 +207,11 @@ width: 157.5px;
   }
   .container{
     width: fit-content;
-    grid-template-columns: repeat(auto-fill,minmax(25px,1fr));
+    grid-template-columns: repeat(3,minmax(50px,1fr));
+    margin-left: 5vmax;
+    margin-right: 5vmax;
     height: max-content;
+    overflow: visible;
   }
   .container .items{
 /* height: 28px;
@@ -217,6 +220,6 @@ height: fit-content;
 
   }
   .container .items .containerImage img{
-    width: 30px;
+    width: 100px;
   }
 } 

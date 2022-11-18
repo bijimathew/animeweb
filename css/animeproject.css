@@ -186,10 +186,11 @@ background-color: #222;
 .container .items:hover{
   background-color: rgb(44, 43, 43);
 }
-.containertext{
+.containertext,a{
   font-size: 1vmax;
   color: #87b4ce;
   text-align: center;
+  text-decoration: none;
 }
 .containerepisode{
   color: grey;
